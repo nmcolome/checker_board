@@ -22,3 +22,7 @@ class CheckerBoard
   end
 
 end
+
+print "Enter the size of the board (>0): > "
+size = gets.chomp.to_i
+print CheckerBoard.new.build(size)
